@@ -1,4 +1,5 @@
 {
+    "minimum-stability": "stable",
     "name": "rivomanana/rvslimbase",
     "type": "project",
     "authors": [
@@ -11,12 +12,12 @@
         "php": ">=5.4",
         "slim/slim": "^2.6",
 		"itsgoingd/slim-facades": "^1.0",
-		"craftsmancoding/formbuilder": "dev-master",
-		"slim/views": "dev-master",
+		"craftsmancoding/formbuilder": "@dev",
+		"slim/views": "*",
         "smarty/smarty": "~3.1",
 		"illuminate/database": "*",
         "illuminate/events": "*",
-		"wixel/gump": "dev-master",
+		"wixel/gump": "*",
 		"cocur/slugify": "~1.1",
         "itsgoingd/slim-services": "^1.0",
         "akrabat/rka-slim-controller": "^2.0",
@@ -37,6 +38,7 @@
     ],
     "config": {
         "preferred-install": "dist"
-    }
+    },
+    "prefer-stable": true
 
 }

@@ -8,6 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     $vendorDir . '/danielstjules/stringy/src/Create.php',
     $vendorDir . '/illuminate/support/helpers.php',
-    $vendorDir . '/wixel/gump/gump.class.php',
     $vendorDir . '/swiftmailer/swiftmailer/lib/swift_required.php',
+    $vendorDir . '/wixel/gump/gump.class.php',
 );
