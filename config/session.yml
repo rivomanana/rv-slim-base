@@ -1,0 +1,8 @@
+session_name: 12mpollm_hst_m
+bootMiddleware:
+    expires: 2 days
+    path: /
+    domain: null
+    secure: false
+    httponly: false
+    name: 12mpollm_hst_m

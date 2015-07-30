@@ -1,0 +1,8 @@
+smarty_helper:
+    Config: App\Concept\Config
+    Assets: App\Concept\Assets
+    #Lang: App\Concept\Lang
+    #Token: App\Concept\Token
+    #Utils: App\Concept\Utils
+    #Swift_Image: \Swift_Image
+    #Pages: App\Services\Pages

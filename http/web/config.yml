@@ -1,0 +1,11 @@
+scripts:
+    #jquery: bower_components/jquery/dist/jquery.min.js
+    #materilize: js/materialize.js
+    #func: js/inc/functions.js
+    #alert: js/alert/alert-app.js
+    #scrollbar: bower_components/perfect-scrollbar/js/min/perfect-scrollbar.jquery.min.js
+    main: js/main.js
+
+styles:
+    #scrollbar: bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css
+    app: css/main.css

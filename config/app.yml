@@ -1,0 +1,38 @@
+siteName: Jeux SMS
+
+httpsPort: 443
+
+middleware:
+    #guard: App\Middleware\Guard
+    sessions: Slim\Middleware\SessionCookie@session.bootMiddleware
+    flash: Slim\Middleware\Flash
+
+#mail transport default sendMail|smtp|gmail
+mailTransport: gmail
+
+#sendMail configurations
+sendMailOption: /usr/sbin/sendmail -bs
+
+#smpt configurations
+smtpHost: smtp.example.org
+smtpPort: 25
+smtpUsername: user
+smtpPassword: pass
+
+#gmail configurations
+#if have issue
+#folow https://www.google.com/settings/security/lesssecureapps
+gHost: smtp.gmail.com
+gPort: 587
+gEncryption: tls
+gUsername: rivomanana.dev@gmail.com
+gPassword: masakaberivomanana
+
+
+siteEmail: contact@zingo.com
+
+#per hour
+availableResetToken: 2
+managerSlugPAth: manager
+
+

@@ -1,0 +1,36 @@
+{
+    "name": "rivomanana/jeuxsms",
+    "authors": [
+        {
+            "name": "rivomanana",
+            "email": "rivomanana.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^2.6",
+		"itsgoingd/slim-facades": "^1.0",
+		"craftsmancoding/formbuilder": "dev-master",
+		"slim/views": "dev-master",
+        "smarty/smarty": "~3.1",
+		"illuminate/database": "*",
+        "illuminate/events": "*",
+		"wixel/gump": "dev-master",
+		"cocur/slugify": "~1.1",
+        "itsgoingd/slim-services": "^1.0",
+        "akrabat/rka-slim-controller": "^2.0",
+        "symfony/yaml": "^2.7",
+        "sinergi/token": "^0.1.0",
+        "swiftmailer/swiftmailer": "^5.4"
+    },
+	"autoload" : {
+        "psr-4" : {
+            "App\\" : "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:craftsmancoding/formbuilder.git"
+        }
+    ]
+}
