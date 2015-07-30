@@ -1,5 +1,6 @@
 {
     "name": "rivomanana/rvslimbase",
+    "type": "project",
     "authors": [
         {
             "name": "rivomanana",
@@ -7,6 +8,7 @@
         }
     ],
     "require": {
+        "php": ">=5.4",
         "slim/slim": "^2.6",
 		"itsgoingd/slim-facades": "^1.0",
 		"craftsmancoding/formbuilder": "dev-master",
